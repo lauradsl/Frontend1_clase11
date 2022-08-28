@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+}
+
+header div img{
+    padding: 10px 0px 10px 20px;
+}
+
+header ul{
+    display:flex;
+    padding: 40px; 
+}
+
+header ul li{
+    margin: 0px 10px 10px 10px;
+}
+
+main{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Envios{
+    width: 490px;
+    height: 350px;
+    margin: 35px 5px 35px 19px;
+    border-radius: 5px;
+}
+
+.Podio{
+    width: 491px;
+    height: 350px;
+    align-content: 50px;
+    margin: 35px 5px 35px 19px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    position: relative;
+  }
+
+  main div h2{
+    position: absolute;
+    color:red;
+    margin: 26px 160px 296px 160px;
+  }
+
+main div h3{
+    margin: 112px 312px 20px 60px;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+
+  .ListaPedidos{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 69px;
+    top: 155px;
+}
+
+
+main div ol li{
+    margin:8px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.Tipos{
+    position: absolute;
+    width: 92px;
+    height: 129px;
+    left: 325px;
+    top: 132px;
+    right: 74px;
+    bottom: 89px;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    width: 100%px;
+    height: 150px;
+    justify-content: space-between;
+    color: white;
+}
+
+footer ul{
+    padding: 20px;
+}
+
+footer ul li{
+    margin:10px;
+}
+
+footer img{
+    padding: 35px 42px 10px 20px;
+}
+
+
+
+
+
+
+
+
